@@ -1,0 +1,387 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Realizze Travel</title>
+<script src="./vendor/react.js"></script>
+<script src="./vendor/react-dom.js"></script>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Allura&amp;family=Cormorant+Garamond:wght@500;600;700&amp;family=Montserrat:wght@500;600;700;800&amp;family=Poppins:wght@400;500;600&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+a{color:inherit;text-decoration:none}
+a:hover{opacity:.85}
+html{scroll-behavior:smooth}
+</style>
+</helmet>
+<div style="font-family:'Poppins',system-ui,sans-serif;color:#0A0951;background:#F3F4FA;line-height:1.55">
+
+<!-- 1+2. HEADER + HERO -->
+<div id="inicio" style="position:relative;background:radial-gradient(ellipse 46% 80% at 74% 60%,rgba(52,68,200,.55) 0%,rgba(10,9,81,0) 72%),linear-gradient(180deg,#000D2D 0%,#06094D 100%);color:#FFFFFF;overflow:hidden">
+
+<header style="position:relative;z-index:3">
+<div style="max-width:1200px;margin:0 auto;padding:22px 24px;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:14px 28px">
+<a href="#inicio" style="display:flex;align-items:center"><img src="./assets/1b70050777b864323514b80af967574c.png" alt="Realizze Travel" width="900" height="230" style="height:44px;width:auto;display:block"></a>
+<nav aria-label="Menu principal" style="display:flex;flex-wrap:wrap;align-items:center;gap:8px 26px;font-family:'Montserrat',sans-serif;font-size:13px;font-weight:600;letter-spacing:.3px">
+<a href="#ofertas" style="color:#E6E6F5">Ofertas</a>
+<a href="#destinos" style="color:#E6E6F5">Experiências</a>
+<a href="#diferenciais" style="color:#E6E6F5">Diferenciais</a>
+<a href="#servicos" style="color:#E6E6F5">Serviços</a>
+<a href="#depoimentos" style="color:#E6E6F5">Depoimentos</a>
+<a href="#contato" style="color:#E6E6F5">Contato</a>
+<a href="https://wa.me/5581995357254?text=Ol%C3%A1!%20Quero%20planejar%20minha%20viagem%20com%20a%20Realizze%20Travel" style="background:{{gold}};color:#0A0951;padding:10px 18px;border-radius:8px;font-weight:700;font-size:13px">Falar com consultor</a>
+</nav>
+</div>
+</header>
+
+<section style="position:relative;z-index:2">
+<div style="max-width:1200px;margin:0 auto;padding:0 24px;display:flex;flex-wrap:wrap;align-items:flex-end;gap:0 24px;min-height:720px">
+<div style="flex:1 1 440px;min-width:0;max-width:600px;display:flex;flex-direction:column;gap:26px;padding:40px 0 96px;align-self:center">
+<span style="font-size:11px;font-weight:700;letter-spacing:3px;text-transform:uppercase;font-family:'Montserrat',sans-serif;color:#E3C78A">Viagens sob medida · Atendimento humanizado</span>
+<h1 style="margin:0;max-width:9.4em;font-family:'Cormorant Garamond',Georgia,serif;font-weight:600;font-size:clamp(50px,7vw,96px);line-height:.98;letter-spacing:-1.5px;color:#FFFFFF">Sua viagem <span style="color:#E3C78A">dos sonhos</span>, sem perrengues do início ao fim.</h1>
+<p style="margin:0;font-size:16px;line-height:1.65;color:#D9DAF0;max-width:470px">A Realizze Travel cuida de cada detalhe: roteiro, voos, hospedagem, passeios e suporte. Você só se preocupa em aproveitar cada momento com quem ama.</p>
+<div style="display:flex;flex-wrap:wrap;align-items:center;gap:14px 22px">
+<a href="https://wa.me/5581995357254?text=Ol%C3%A1!%20Quero%20planejar%20minha%20viagem%20dos%20sonhos" style="background:{{gold}};color:#0A0951;padding:14px 26px;border-radius:8px;font-family:'Montserrat',sans-serif;font-weight:700;font-size:14px">Planejar minha viagem</a>
+<span style="font-size:11px;letter-spacing:2px;text-transform:uppercase;font-family:'Montserrat',sans-serif;color:#E3C78A">Orçamento gratuito</span>
+</div>
+<div style="display:flex;flex-wrap:wrap;align-items:center;gap:8px 20px;font-size:13px;color:#D9DAF0">
+<span style="display:flex;align-items:center;gap:8px"><span style="display:flex;gap:2px" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="#E3C78A"><polygon points="12,2 15,9 22,9.3 16.5,14 18.3,21 12,17 5.7,21 7.5,14 2,9.3 9,9"></polygon></svg><svg width="16" height="16" viewBox="0 0 24 24" fill="#E3C78A"><polygon points="12,2 15,9 22,9.3 16.5,14 18.3,21 12,17 5.7,21 7.5,14 2,9.3 9,9"></polygon></svg><svg width="16" height="16" viewBox="0 0 24 24" fill="#E3C78A"><polygon points="12,2 15,9 22,9.3 16.5,14 18.3,21 12,17 5.7,21 7.5,14 2,9.3 9,9"></polygon></svg><svg width="16" height="16" viewBox="0 0 24 24" fill="#E3C78A"><polygon points="12,2 15,9 22,9.3 16.5,14 18.3,21 12,17 5.7,21 7.5,14 2,9.3 9,9"></polygon></svg><svg width="16" height="16" viewBox="0 0 24 24" fill="#E3C78A"><polygon points="12,2 15,9 22,9.3 16.5,14 18.3,21 12,17 5.7,21 7.5,14 2,9.3 9,9"></polygon></svg></span><span style="font-weight:600">5,0 · 23 avaliações no Google</span></span>
+<span>Suporte durante toda a viagem</span>
+</div>
+</div>
+<img src="./assets/94ffe0a7b3b5ca6cb9b8069485f9a358.webp" alt="Os consultores da Realizze Travel, de uniforme azul, sorrindo abraçados" width="820" height="1113" style="flex:1 1 380px;min-width:0;width:100%;max-width:640px;height:auto;display:block;margin:0 -24px 0 auto;align-self:flex-end">
+</div>
+</section>
+
+</div>
+
+<!-- OFERTAS -->
+<section id="ofertas" style="padding:80px 0 72px;background:#FFFFFF">
+<div style="max-width:1200px;margin:0 auto;padding:0 24px;display:flex;flex-direction:column;align-items:center;gap:40px">
+<div style="max-width:620px;display:flex;flex-direction:column;align-items:center;text-align:center;gap:14px">
+<h2 style="margin:0;font-family:'Cormorant Garamond',Georgia,serif;font-weight:600;font-size:clamp(38px,4.6vw,56px);line-height:1.15;color:#0A0951">Ofertas</h2>
+<span aria-hidden="true" style="width:64px;height:3px;border-radius:3px;background:linear-gradient(135deg,#A8884A 0%,#E6CE92 50%,#B8954C 100%)"></span>
+<p style="margin:0;font-size:18px;color:#4A4C80">Aéreo, hospedagem e passeios já organizados. Escolha o seu destino e fale com a gente.</p>
+</div>
+<div id="ofertas-track" style="width:100%;display:flex;gap:32px;overflow-x:auto;scroll-snap-type:x mandatory;padding:4px 4px 20px;box-sizing:border-box;scrollbar-width:none">
+<a href="https://wa.me/5581995357254?text=Ol%C3%A1%21%20Quero%20saber%20mais%20sobre%20o%20pacote%20para%20Buenos%20Aires" aria-label="Pedir orçamento: Oferta Buenos Aires, 08 a 12 de abril, aéreo e hospedagem com saída de Recife, 10x de R$ 295,00" style="flex:0 0 max(calc((100% - 64px) / 3),260px);scroll-snap-align:start;display:block;border-radius:24px;overflow:hidden;box-shadow:0 6px 22px rgba(10,9,77,.16)">
+<img src="./assets/af9ae22642d379fb90803a64100957ae.png" alt="Oferta Buenos Aires, 08 a 12 de abril, aéreo e hospedagem com saída de Recife, 10x de R$ 295,00" style="width:100%;height:auto;display:block">
+</a>
+<a href="https://wa.me/5581995357254?text=Ol%C3%A1%21%20Quero%20saber%20mais%20sobre%20o%20pacote%20para%20os%20Len%C3%A7%C3%B3is%20Maranhenses" aria-label="Pedir orçamento: Oferta Lençóis Maranhenses, 11 a 15 de março, aéreo, hospedagem e passeio com saída de Recife, 10x de R$ 225,00" style="flex:0 0 max(calc((100% - 64px) / 3),260px);scroll-snap-align:start;display:block;border-radius:24px;overflow:hidden;box-shadow:0 6px 22px rgba(10,9,77,.16)">
+<img src="./assets/d435e323c7e8338f2de80e358335eb03.png" alt="Oferta Lençóis Maranhenses, 11 a 15 de março, aéreo, hospedagem e passeio com saída de Recife, 10x de R$ 225,00" style="width:100%;height:auto;display:block">
+</a>
+<a href="https://wa.me/5581995357254?text=Ol%C3%A1%21%20Quero%20saber%20mais%20sobre%20o%20pacote%20para%20Salvador" aria-label="Pedir orçamento: Oferta Salvador, 08 a 12 de abril, aéreo, hospedagem e passeio com saída de Recife, 10x de R$ 130,00" style="flex:0 0 max(calc((100% - 64px) / 3),260px);scroll-snap-align:start;display:block;border-radius:24px;overflow:hidden;box-shadow:0 6px 22px rgba(10,9,77,.16)">
+<img src="./assets/13987ab382419d2f7bdcbc14785694b5.png" alt="Oferta Salvador, 08 a 12 de abril, aéreo, hospedagem e passeio com saída de Recife, 10x de R$ 130,00" style="width:100%;height:auto;display:block">
+</a>
+<a href="https://wa.me/5581995357254?text=Ol%C3%A1%21%20Quero%20saber%20mais%20sobre%20o%20pacote%20para%20o%20Beto%20Carrero" aria-label="Pedir orçamento: Oferta Beto Carrero, 15 a 19 de abril, aéreo, hospedagem e ingresso com saída de Recife, 10x de R$ 230,00" style="flex:0 0 max(calc((100% - 64px) / 3),260px);scroll-snap-align:start;display:block;border-radius:24px;overflow:hidden;box-shadow:0 6px 22px rgba(10,9,77,.16)">
+<img src="./assets/614d521cb204d4feaf6d6af8777b5554.png" alt="Oferta Beto Carrero, 15 a 19 de abril, aéreo, hospedagem e ingresso com saída de Recife, 10x de R$ 230,00" style="width:100%;height:auto;display:block">
+</a>
+<a href="https://wa.me/5581995357254?text=Ol%C3%A1%21%20Quero%20saber%20mais%20sobre%20o%20pacote%20para%20Campos%20do%20Jord%C3%A3o" aria-label="Pedir orçamento: Oferta Campos do Jordão, 15 a 19 de abril, aéreo, hospedagem e passeio com saída de Recife, 10x de R$ 210,00" style="flex:0 0 max(calc((100% - 64px) / 3),260px);scroll-snap-align:start;display:block;border-radius:24px;overflow:hidden;box-shadow:0 6px 22px rgba(10,9,77,.16)">
+<img src="./assets/c06e4833fd3bb577dd413ca14d6d7379.png" alt="Oferta Campos do Jordão, 15 a 19 de abril, aéreo, hospedagem e passeio com saída de Recife, 10x de R$ 210,00" style="width:100%;height:auto;display:block">
+</a>
+<a href="https://wa.me/5581995357254?text=Ol%C3%A1%21%20Quero%20saber%20mais%20sobre%20o%20pacote%20para%20Fortaleza" aria-label="Pedir orçamento: Oferta Fortaleza, 04 a 08 de março, aéreo, hospedagem e passeio com saída de Recife, 10x de R$ 150,00" style="flex:0 0 max(calc((100% - 64px) / 3),260px);scroll-snap-align:start;display:block;border-radius:24px;overflow:hidden;box-shadow:0 6px 22px rgba(10,9,77,.16)">
+<img src="./assets/73d698b9299f90c60399504de7cdbc7c.png" alt="Oferta Fortaleza, 04 a 08 de março, aéreo, hospedagem e passeio com saída de Recife, 10x de R$ 150,00" style="width:100%;height:auto;display:block">
+</a>
+<a href="https://wa.me/5581995357254?text=Ol%C3%A1%21%20Quero%20saber%20mais%20sobre%20o%20pacote%20para%20Foz%20do%20Igua%C3%A7u" aria-label="Pedir orçamento: Oferta Foz do Iguaçu, 08 a 12 de abril, aéreo, hospedagem e passeio com saída de Recife, 10x de R$ 295,00" style="flex:0 0 max(calc((100% - 64px) / 3),260px);scroll-snap-align:start;display:block;border-radius:24px;overflow:hidden;box-shadow:0 6px 22px rgba(10,9,77,.16)">
+<img src="./assets/631db8ebee1515d691531952a64ddf4f.png" alt="Oferta Foz do Iguaçu, 08 a 12 de abril, aéreo, hospedagem e passeio com saída de Recife, 10x de R$ 295,00" style="width:100%;height:auto;display:block">
+</a>
+<a href="https://wa.me/5581995357254?text=Ol%C3%A1%21%20Quero%20saber%20mais%20sobre%20o%20pacote%20para%20Fernando%20de%20Noronha" aria-label="Pedir orçamento: Oferta Fernando de Noronha, 24 a 27 de janeiro, aéreo e hospedagem com saída de Recife, 10x de R$ 197,90" style="flex:0 0 max(calc((100% - 64px) / 3),260px);scroll-snap-align:start;display:block;border-radius:24px;overflow:hidden;box-shadow:0 6px 22px rgba(10,9,77,.16)">
+<img src="./assets/0a36d83a3498491741b6ee62bd2333fd.png" alt="Oferta Fernando de Noronha, 24 a 27 de janeiro, aéreo e hospedagem com saída de Recife, 10x de R$ 197,90" style="width:100%;height:auto;display:block">
+</a>
+<a href="https://wa.me/5581995357254?text=Ol%C3%A1%21%20Quero%20saber%20mais%20sobre%20o%20pacote%20para%20Macei%C3%B3" aria-label="Pedir orçamento: Oferta Maceió, 08 a 12 de abril, aéreo e hospedagem com saída de Recife, 10x de R$ 247,00" style="flex:0 0 max(calc((100% - 64px) / 3),260px);scroll-snap-align:start;display:block;border-radius:24px;overflow:hidden;box-shadow:0 6px 22px rgba(10,9,77,.16)">
+<img src="./assets/6a85b6241ae0a77b5a035850bb88615e.png" alt="Oferta Maceió, 08 a 12 de abril, aéreo e hospedagem com saída de Recife, 10x de R$ 247,00" style="width:100%;height:auto;display:block">
+</a>
+</div>
+<div style="display:flex;gap:16px">
+<button type="button" aria-label="Ofertas anteriores" onClick="{{prevOffer}}" style="width:52px;height:52px;border-radius:999px;border:2px solid #0A0951;background:transparent;cursor:pointer;display:flex;align-items:center;justify-content:center;padding:0">
+<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#0A0951" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 5l-7 7 7 7"></path></svg>
+</button>
+<button type="button" aria-label="Próximas ofertas" onClick="{{nextOffer}}" style="width:52px;height:52px;border-radius:999px;border:2px solid #0A0951;background:#0A0951;cursor:pointer;display:flex;align-items:center;justify-content:center;padding:0">
+<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#E3C78A" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 5l7 7-7 7"></path></svg>
+</button>
+</div>
+<p style="margin:0;font-size:14px;color:#4A4C80;text-align:center">Valores e datas conforme os cartazes. Sujeitos à disponibilidade; confirme com um consultor no WhatsApp.</p>
+</div>
+</section>
+
+<!-- 3. DIFERENCIAIS -->
+<section id="diferenciais" style="padding:88px 0 72px">
+<div style="max-width:1200px;margin:0 auto;padding:0 24px;display:flex;flex-direction:column;gap:48px">
+<div style="max-width:680px;display:flex;flex-direction:column;gap:14px">
+<span style="font-size:13px;font-weight:700;letter-spacing:2px;text-transform:uppercase;font-family:'Montserrat',sans-serif;color:#8A6212">Por que a Realizze</span>
+<h2 style="margin:0;font-family:'Cormorant Garamond',Georgia,serif;font-weight:600;font-size:clamp(36px,4.2vw,52px);line-height:1.15">Sua próxima viagem. Nossa missão é cuidar de tudo.</h2>
+<p style="margin:0;font-size:18px;color:#4A4C80">Planejamos cada detalhe para você viajar com segurança, tranquilidade e o melhor custo-benefício.</p>
+</div>
+<div style="display:flex;flex-wrap:wrap;gap:24px">
+<div style="flex:1 1 250px;min-width:0;background:#FFFFFF;border-radius:20px;padding:32px 28px;display:flex;flex-direction:column;gap:14px;box-shadow:0 2px 14px rgba(10,9,77,.07)">
+<svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#2A2990" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 6l6-3 6 3 6-3v15l-6 3-6-3-6 3z"></path><path d="M9 3v15M15 6v15"></path></svg>
+<h3 style="margin:0;font-size:20px">Roteiros sob medida</h3>
+<p style="margin:0;color:#4A4C80">Cada viagem é desenhada para o seu estilo, o seu ritmo e o seu orçamento. Nada de pacote genérico.</p>
+</div>
+<div style="flex:1 1 250px;min-width:0;background:#FFFFFF;border-radius:20px;padding:32px 28px;display:flex;flex-direction:column;gap:14px;box-shadow:0 2px 14px rgba(10,9,77,.07)">
+<svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#2A2990" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 13v-1a8 8 0 0116 0v1"></path><path d="M4 13h3v5H5a1 1 0 01-1-1zM20 13h-3v5h2a1 1 0 001-1z"></path><path d="M19 18c0 2-2 3-5 3"></path></svg>
+<h3 style="margin:0;font-size:20px">Suporte do início ao fim</h3>
+<p style="margin:0;color:#4A4C80">Acompanhamento antes, durante e depois da viagem. Se algo acontecer, você fala com gente de verdade.</p>
+</div>
+<div style="flex:1 1 250px;min-width:0;background:#FFFFFF;border-radius:20px;padding:32px 28px;display:flex;flex-direction:column;gap:14px;box-shadow:0 2px 14px rgba(10,9,77,.07)">
+<svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#2A2990" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"></circle><path d="M15 9.5c-.6-1-1.7-1.5-3-1.5-1.7 0-3 .8-3 2s1.3 1.8 3 2 3 .8 3 2-1.3 2-3 2c-1.3 0-2.4-.5-3-1.5M12 6v2M12 16v2"></path></svg>
+<h3 style="margin:0;font-size:20px">Melhor custo-benefício</h3>
+<p style="margin:0;color:#4A4C80">Comparamos opções e usamos nossas parcerias para você viajar bem, com condições que valem cada centavo.</p>
+</div>
+<div style="flex:1 1 250px;min-width:0;background:#FFFFFF;border-radius:20px;padding:32px 28px;display:flex;flex-direction:column;gap:14px;box-shadow:0 2px 14px rgba(10,9,77,.07)">
+<svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#2A2990" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l8 3v6c0 4.5-3.2 8-8 9-4.8-1-8-4.5-8-9V6z"></path><path d="M8.5 12l2.5 2.5 4.5-5"></path></svg>
+<h3 style="margin:0;font-size:20px">Agência credenciada</h3>
+<p style="margin:0;color:#4A4C80">Segurança na contratação, com todas as reservas e documentos em ordem. Cadastur nº 63.652.360/0001-98.</p>
+</div>
+</div>
+</div>
+</section>
+
+<!-- SERVIÇOS -->
+<section id="servicos" style="padding:80px 0;background:#0A0951;color:#FFFFFF">
+<div style="max-width:1200px;margin:0 auto;padding:0 24px;display:flex;flex-direction:column;gap:48px">
+<div style="max-width:700px;display:flex;flex-direction:column;gap:14px">
+<span style="font-size:13px;font-weight:700;letter-spacing:2px;text-transform:uppercase;font-family:'Montserrat',sans-serif;color:#E3C78A">Nossos serviços</span>
+<h2 style="margin:0;font-family:'Cormorant Garamond',Georgia,serif;font-weight:600;font-size:clamp(36px,4.2vw,52px);line-height:1.15;color:#FFFFFF">Tudo para a sua viagem em um só lugar.</h2>
+<p style="margin:0;font-size:18px;color:#E6E6F5">Viajar com mais tranquilidade, praticidade e segurança.</p>
+</div>
+<div style="display:flex;flex-wrap:wrap;gap:20px">
+<div style="flex:1 1 300px;min-width:0;background:linear-gradient(135deg,#A8884A 0%,#E6CE92 50%,#B8954C 100%);color:#0A0951;border-radius:18px;padding:26px 28px;display:flex;align-items:center;gap:18px">
+<svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#0A0951" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex:none"><path d="M17.8 19.2 16 11l3.5-3.5C21 6 21.5 4 21 3c-1-.5-3 0-4.5 1.5L13 8 4.8 6.2c-.5-.1-.9.1-1.1.5l-.3.5c-.2.5-.1 1 .3 1.3L9 12l-2 3H4l-1 1 3 2 2 3 1-1v-3l3-2 3.5 5.3c.3.4.8.5 1.3.3l.5-.2c.4-.3.6-.7.5-1.2z"></path></svg>
+<span style="font-weight:700;font-size:17px">Aéreo nacional e internacional</span>
+</div>
+<div style="flex:1 1 300px;min-width:0;background:linear-gradient(135deg,#A8884A 0%,#E6CE92 50%,#B8954C 100%);color:#0A0951;border-radius:18px;padding:26px 28px;display:flex;align-items:center;gap:18px">
+<svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#0A0951" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex:none"><rect x="5" y="3" width="14" height="18" rx="1"></rect><path d="M9 7h2M13 7h2M9 11h2M13 11h2M10 21v-4h4v4"></path></svg>
+<span style="font-weight:700;font-size:17px">Hospedagens, hotéis e resorts</span>
+</div>
+<div style="flex:1 1 300px;min-width:0;background:linear-gradient(135deg,#A8884A 0%,#E6CE92 50%,#B8954C 100%);color:#0A0951;border-radius:18px;padding:26px 28px;display:flex;align-items:center;gap:18px">
+<svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#0A0951" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex:none"><path d="M4 7h16v3a2 2 0 000 4v3H4v-3a2 2 0 000-4z"></path><path d="M14 7v10" stroke-dasharray="2 2"></path></svg>
+<span style="font-weight:700;font-size:17px">Ingressos para parques, shows e atrações</span>
+</div>
+<div style="flex:1 1 300px;min-width:0;background:linear-gradient(135deg,#A8884A 0%,#E6CE92 50%,#B8954C 100%);color:#0A0951;border-radius:18px;padding:26px 28px;display:flex;align-items:center;gap:18px">
+<svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#0A0951" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex:none"><path d="M5 16v-5l2-5h10l2 5v5"></path><path d="M3 16h18v3H3zM7.5 13h.01M16.5 13h.01"></path></svg>
+<span style="font-weight:700;font-size:17px">Locação de carros</span>
+</div>
+<div style="flex:1 1 300px;min-width:0;background:linear-gradient(135deg,#A8884A 0%,#E6CE92 50%,#B8954C 100%);color:#0A0951;border-radius:18px;padding:26px 28px;display:flex;align-items:center;gap:18px">
+<svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#0A0951" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex:none"><path d="M12 3l8 3v6c0 4.5-3.2 8-8 9-4.8-1-8-4.5-8-9V6z"></path><path d="M8.5 12l2.5 2.5 4.5-5"></path></svg>
+<span style="font-weight:700;font-size:17px">Seguro viagem completo e acessível</span>
+</div>
+<div style="flex:1 1 300px;min-width:0;background:linear-gradient(135deg,#A8884A 0%,#E6CE92 50%,#B8954C 100%);color:#0A0951;border-radius:18px;padding:26px 28px;display:flex;align-items:center;gap:18px">
+<svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#0A0951" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex:none"><rect x="6" y="7" width="12" height="13" rx="2"></rect><path d="M9 7V4h6v3M10 11v5M14 11v5"></path></svg>
+<span style="font-weight:700;font-size:17px">Pacotes de viagens</span>
+</div>
+<div style="flex:1 1 300px;min-width:0;background:linear-gradient(135deg,#A8884A 0%,#E6CE92 50%,#B8954C 100%);color:#0A0951;border-radius:18px;padding:26px 28px;display:flex;align-items:center;gap:18px">
+<svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#0A0951" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex:none"><path d="M3 17l2 3h14l2-3z"></path><path d="M5 17v-5h14v5M9 12V8h6v4M12 4v4"></path></svg>
+<span style="font-weight:700;font-size:17px">Cruzeiros</span>
+</div>
+<div style="flex:1 1 300px;min-width:0;background:linear-gradient(135deg,#A8884A 0%,#E6CE92 50%,#B8954C 100%);color:#0A0951;border-radius:18px;padding:26px 28px;display:flex;align-items:center;gap:18px">
+<svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#0A0951" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex:none"><rect x="4" y="5" width="16" height="12" rx="2"></rect><path d="M4 11h16M8 17v2M16 17v2M8 14h.01M16 14h.01"></path></svg>
+<span style="font-weight:700;font-size:17px">Transfer</span>
+</div>
+<div style="flex:1 1 300px;min-width:0;background:linear-gradient(135deg,#A8884A 0%,#E6CE92 50%,#B8954C 100%);color:#0A0951;border-radius:18px;padding:26px 28px;display:flex;align-items:center;gap:18px">
+<svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#0A0951" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex:none"><path d="M3 6l6-2 6 2 6-2v14l-6 2-6-2-6 2z"></path><path d="M9 4v14M15 6v14"></path></svg>
+<span style="font-weight:700;font-size:17px">Passeios e roteiros</span>
+</div>
+</div>
+<div style="display:flex;flex-wrap:wrap;align-items:center;gap:20px">
+<a href="https://wa.me/5581995357254?text=Ol%C3%A1!%20Quero%20um%20or%C3%A7amento%20com%20a%20Realizze%20Travel" style="background:{{gold}};color:#0A0951;padding:16px 32px;border-radius:999px;font-family:'Montserrat',sans-serif;font-weight:700;font-size:16px">Pedir orçamento</a>
+<span style="font-family:'Allura',cursive;font-size:34px;line-height:1.1;color:#E3C78A">Você sonha, a gente realiza!</span>
+</div>
+</div>
+</section>
+
+<!-- 4. DESTINOS -->
+<section id="destinos" style="padding:72px 0;background:#FFFFFF">
+<div style="max-width:1200px;margin:0 auto;padding:0 24px;display:flex;flex-direction:column;gap:48px">
+<div style="max-width:680px;display:flex;flex-direction:column;gap:14px">
+<span style="font-size:13px;font-weight:700;letter-spacing:2px;text-transform:uppercase;font-family:'Montserrat',sans-serif;color:#8A6212">Experiências</span>
+<h2 style="margin:0;font-family:'Cormorant Garamond',Georgia,serif;font-weight:600;font-size:clamp(36px,4.2vw,52px);line-height:1.15">Cada viagem tem um propósito. A gente cuida de cada detalhe.</h2>
+<p style="margin:0;font-size:18px;color:#4A4C80">De momentos especiais a compromissos profissionais, criamos soluções de viagem personalizadas para pessoas, famílias, empresas e grupos.</p>
+</div>
+<div style="display:flex;flex-wrap:wrap;justify-content:center;gap:24px">
+<a href="https://wa.me/5581995357254?text=Ol%C3%A1%21%20Quero%20planejar%20uma%20viagem%20na%20categoria%20Lazer" style="flex:0 0 max(calc((100% - 72px) / 4),240px);min-width:0;height:500px;border-radius:24px;overflow:hidden;display:flex;flex-direction:column;box-shadow:0 6px 22px rgba(10,9,81,.16)">
+<div role="img" aria-label="Família com os braços para o alto, de frente para o mar" style="flex:1 1 0;min-height:0;background:url(./assets/0ee81980295daf6c228b2e8a25e0085d.jpg) 60% 50%/cover"></div>
+<div style="flex:0 0 260px;height:260px;box-sizing:border-box;padding:20px 22px 22px;background:#0A0951;color:#FFFFFF;display:flex;flex-direction:column;gap:8px">
+<h3 style="margin:0;font-family:'Cormorant Garamond',Georgia,serif;font-size:28px;font-weight:600">Lazer</h3>
+<p style="margin:0;font-size:14px;line-height:1.5">Famílias, casais, grupos e viajantes individuais.</p>
+<span style="margin-top:auto;font-weight:700;font-size:14px;color:#E3C78A">Falar com um consultor</span>
+</div>
+</a>
+<a href="https://wa.me/5581995357254?text=Ol%C3%A1%21%20Quero%20planejar%20uma%20viagem%20na%20categoria%20Corporativo" style="flex:0 0 max(calc((100% - 72px) / 4),240px);min-width:0;height:500px;border-radius:24px;overflow:hidden;display:flex;flex-direction:column;box-shadow:0 6px 22px rgba(10,9,81,.16)">
+<div role="img" aria-label="Executivo com mala no saguão de um hotel" style="flex:1 1 0;min-height:0;background:url(./assets/afbe083be795edf6ceaf57c44cc5bc2f.jpg) 38% 50%/cover"></div>
+<div style="flex:0 0 260px;height:260px;box-sizing:border-box;padding:20px 22px 22px;background:#0A0951;color:#FFFFFF;display:flex;flex-direction:column;gap:8px">
+<h3 style="margin:0;font-family:'Cormorant Garamond',Georgia,serif;font-size:28px;font-weight:600">Corporativo</h3>
+<p style="margin:0;font-size:14px;line-height:1.5">Empresas e profissionais que precisam viajar.</p>
+<span style="margin-top:auto;font-weight:700;font-size:14px;color:#E3C78A">Falar com um consultor</span>
+</div>
+</a>
+<a href="https://wa.me/5581995357254?text=Ol%C3%A1%21%20Quero%20planejar%20uma%20viagem%20na%20categoria%20Grupos" style="flex:0 0 max(calc((100% - 72px) / 4),240px);min-width:0;height:500px;border-radius:24px;overflow:hidden;display:flex;flex-direction:column;box-shadow:0 6px 22px rgba(10,9,81,.16)">
+<div role="img" aria-label="Grupo de amigos correndo na praia ao pôr do sol" style="flex:1 1 0;min-height:0;background:url(./assets/30d57dcad8a4fe942dd7f826289de136.jpg) 40% 50%/cover"></div>
+<div style="flex:0 0 260px;height:260px;box-sizing:border-box;padding:20px 22px 22px;background:#0A0951;color:#FFFFFF;display:flex;flex-direction:column;gap:8px">
+<h3 style="margin:0;font-family:'Cormorant Garamond',Georgia,serif;font-size:28px;font-weight:600">Grupos</h3>
+<p style="margin:0;font-size:14px;line-height:1.5">Excursões, grupos especiais e viagens coletivas.</p>
+<span style="margin-top:auto;font-weight:700;font-size:14px;color:#E3C78A">Falar com um consultor</span>
+</div>
+</a>
+<a href="https://wa.me/5581995357254?text=Ol%C3%A1%21%20Quero%20planejar%20uma%20viagem%20na%20categoria%20Eventos" style="flex:0 0 max(calc((100% - 72px) / 4),240px);min-width:0;height:500px;border-radius:24px;overflow:hidden;display:flex;flex-direction:column;box-shadow:0 6px 22px rgba(10,9,81,.16)">
+<div role="img" aria-label="Palestrante com microfone diante de uma plateia" style="flex:1 1 0;min-height:0;background:url(./assets/cebc58c0923698d53c38eb4c5b23922b.jpg) 20% 50%/cover"></div>
+<div style="flex:0 0 260px;height:260px;box-sizing:border-box;padding:20px 22px 22px;background:#0A0951;color:#FFFFFF;display:flex;flex-direction:column;gap:8px">
+<h3 style="margin:0;font-family:'Cormorant Garamond',Georgia,serif;font-size:28px;font-weight:600">Eventos</h3>
+<p style="margin:0;font-size:14px;line-height:1.5">Participantes, convidados e equipes que precisam de logística de viagem.</p>
+<span style="margin-top:auto;font-weight:700;font-size:14px;color:#E3C78A">Falar com um consultor</span>
+</div>
+</a>
+<a href="https://wa.me/5581995357254?text=Ol%C3%A1%21%20Quero%20planejar%20uma%20viagem%20na%20categoria%20Atletas" style="flex:0 0 max(calc((100% - 72px) / 4),240px);min-width:0;height:500px;border-radius:24px;overflow:hidden;display:flex;flex-direction:column;box-shadow:0 6px 22px rgba(10,9,81,.16)">
+<div role="img" aria-label="Atletas na largada de uma corrida na pista" style="flex:1 1 0;min-height:0;background:url(./assets/4a3cc5625a9bfcf4ff2ceeafd7f6d0b0.jpg) 50% 50%/cover"></div>
+<div style="flex:0 0 260px;height:260px;box-sizing:border-box;padding:20px 22px 22px;background:#0A0951;color:#FFFFFF;display:flex;flex-direction:column;gap:8px">
+<h3 style="margin:0;font-family:'Cormorant Garamond',Georgia,serif;font-size:28px;font-weight:600">Atletas</h3>
+<p style="margin:0;font-size:14px;line-height:1.5">Atletas, equipes e competições esportivas. Logística completa para viagens esportivas, incluindo passagens, hospedagem e suporte durante competições e campeonatos.</p>
+<span style="margin-top:auto;font-weight:700;font-size:14px;color:#E3C78A">Falar com um consultor</span>
+</div>
+</a>
+<a href="https://wa.me/5581995357254?text=Ol%C3%A1%21%20Quero%20planejar%20uma%20viagem%20na%20categoria%20Experi%C3%AAncias" style="flex:0 0 max(calc((100% - 72px) / 4),240px);min-width:0;height:500px;border-radius:24px;overflow:hidden;display:flex;flex-direction:column;box-shadow:0 6px 22px rgba(10,9,81,.16)">
+<div role="img" aria-label="Viajante sorrindo em uma selfie na pista do aeroporto" style="flex:1 1 0;min-height:0;background:url(./assets/b65da2c0f1bef6a2f2881c77c2b66a37.jpg) 58% 50%/cover"></div>
+<div style="flex:0 0 260px;height:260px;box-sizing:border-box;padding:20px 22px 22px;background:#0A0951;color:#FFFFFF;display:flex;flex-direction:column;gap:8px">
+<h3 style="margin:0;font-family:'Cormorant Garamond',Georgia,serif;font-size:28px;font-weight:600">Experiências</h3>
+<p style="margin:0;font-size:14px;line-height:1.5">Clientes que buscam mais do que simplesmente uma passagem ou hotel.</p>
+<span style="margin-top:auto;font-weight:700;font-size:14px;color:#E3C78A">Falar com um consultor</span>
+</div>
+</a>
+<a href="https://wa.me/5581995357254?text=Ol%C3%A1%21%20Quero%20planejar%20uma%20viagem%20na%20categoria%20Casais" style="flex:0 0 max(calc((100% - 72px) / 4),240px);min-width:0;height:500px;border-radius:24px;overflow:hidden;display:flex;flex-direction:column;box-shadow:0 6px 22px rgba(10,9,81,.16)">
+<div role="img" aria-label="Casal sentado em um muro olhando as montanhas" style="flex:1 1 0;min-height:0;background:url(./assets/a03f45bd7cb867aa20ffd0e80f417345.jpg) 37% 50%/cover"></div>
+<div style="flex:0 0 260px;height:260px;box-sizing:border-box;padding:20px 22px 22px;background:#0A0951;color:#FFFFFF;display:flex;flex-direction:column;gap:8px">
+<h3 style="margin:0;font-family:'Cormorant Garamond',Georgia,serif;font-size:28px;font-weight:600">Casais</h3>
+<p style="margin:0;font-size:14px;line-height:1.5">Lua de mel, aniversários e viagens a dois. Roteiros personalizados para momentos especiais, com cuidado em cada detalhe da experiência.</p>
+<span style="margin-top:auto;font-weight:700;font-size:14px;color:#E3C78A">Falar com um consultor</span>
+</div>
+</a>
+</div>
+</div>
+</section>
+
+<!-- 5. DEPOIMENTOS -->
+<section id="depoimentos" style="padding:88px 0">
+<div style="max-width:1200px;margin:0 auto;padding:0 24px;display:flex;flex-direction:column;gap:48px">
+<div style="display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:24px">
+<div style="max-width:640px;display:flex;flex-direction:column;gap:14px">
+<span style="font-size:13px;font-weight:700;letter-spacing:2px;text-transform:uppercase;font-family:'Montserrat',sans-serif;color:#8A6212">Quem viajou, recomenda</span>
+<h2 style="margin:0;font-family:'Cormorant Garamond',Georgia,serif;font-weight:600;font-size:clamp(36px,4.2vw,52px);line-height:1.15">Nossa reputação é feita de viajantes felizes.</h2>
+</div>
+<a href="https://www.google.com/maps/place/Realizze+Travel/@-9.6711986,-99.7672807,3z/data=!3m1!4b1!4m6!3m5!1s0x29eaed1abae23dcf:0x6af3bf20c5f391b4!8m2!3d-14.4095262!4d-51.3168626!16s%2Fg%2F11yx775pzt" style="display:flex;align-items:center;gap:12px;background:#FFFFFF;border-radius:16px;padding:14px 20px;box-shadow:0 2px 14px rgba(10,9,77,.07)">
+<span style="font-family:'Cormorant Garamond',Georgia,serif;font-size:34px;font-weight:600;color:#0A0951">5,0</span>
+<span style="display:flex;flex-direction:column;font-size:14px;line-height:1.3"><span style="font-weight:700">Avaliações no Google</span><span style="color:#4A4C80">23 avaliações · <span style="font-weight:700;color:#B8862E;background:linear-gradient(90deg,#A8884A 0%,#C79427 50%,#A8884A 100%);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent">ver no Google Maps</span></span></span>
+</a>
+</div>
+<div style="display:flex;flex-wrap:wrap;justify-content:center;align-items:flex-start;gap:24px">
+<figure style="flex:1 1 320px;min-width:0;max-width:calc((100% - 48px) / 3);margin:0;background:#FFFFFF;border-radius:18px;padding:14px 12px;box-sizing:border-box;box-shadow:0 4px 18px rgba(10,9,81,.10)">
+<img src="./assets/959fb1e1d2cd97de9161107039f4c983.png" alt="Avaliação de 5 estrelas de Janeide Monteiro no Google: Apesar de nova no mercado, essa agência mostrou que tem potencial. Busca sempre o melhor para o grupo. Quem nunca viajou, recomendo @realizze Travel. Viagem pra Ouro Preto, Minas Gerais." width="386" height="181" style="display:block;width:100%;height:auto">
+</figure>
+<figure style="flex:1 1 320px;min-width:0;max-width:calc((100% - 48px) / 3);margin:0;background:#FFFFFF;border-radius:18px;padding:14px 12px;box-sizing:border-box;box-shadow:0 4px 18px rgba(10,9,81,.10)">
+<img src="./assets/efbf68b245f2936d655c74bc4194b55a.png" alt="Avaliação de 5 estrelas de Ivone Alcoforado no Google: Foi uma viagem maravilhosa a Ouro Preto, MG. Um lugar que respira História. Um retorno ao passado, que nos leva à sensação de que o tempo não passou. Com uma excelente assistência através da agência @Realizzetravel." width="399" height="208" style="display:block;width:100%;height:auto">
+</figure>
+<figure style="flex:1 1 320px;min-width:0;max-width:calc((100% - 48px) / 3);margin:0;background:#FFFFFF;border-radius:18px;padding:14px 12px;box-sizing:border-box;box-shadow:0 4px 18px rgba(10,9,81,.10)">
+<img src="./assets/742c5f245476c524e2f961dc1dcfb638.png" alt="Avaliação de 5 estrelas de Gisele Soares no Google: Agência top, as pessoas super prestativas. Agência de confiança, podem comprar sem medo e eles lhe dão todo suporte durante sua viagem." width="392" height="150" style="display:block;width:100%;height:auto">
+</figure>
+<figure style="flex:1 1 320px;min-width:0;max-width:calc((100% - 48px) / 3);margin:0;background:#FFFFFF;border-radius:18px;padding:14px 12px;box-sizing:border-box;box-shadow:0 4px 18px rgba(10,9,81,.10)">
+<img src="./assets/d8659e4dcfac5bf00aa64ca8fa32bb8d.png" alt="Avaliação de 5 estrelas de Pai e Investidor no Google: Excelente equipe, deu todo o suporte necessário no que precisamos. Recomendo muito." width="391" height="143" style="display:block;width:100%;height:auto">
+</figure>
+<figure style="flex:1 1 320px;min-width:0;max-width:calc((100% - 48px) / 3);margin:0;background:#FFFFFF;border-radius:18px;padding:14px 12px;box-sizing:border-box;box-shadow:0 4px 18px rgba(10,9,81,.10)">
+<img src="./assets/1feed4e2d9f25dfeb9421ca7241a10fa.png" alt="Avaliação de 5 estrelas de Família França no Google: São bastante atenciosos, e com as melhores orientações e opções para viagens. Ficamos impressionados com tanto cuidado conosco. Agradecemos de coração!" width="397" height="188" style="display:block;width:100%;height:auto">
+</figure>
+</div>
+</div>
+</section>
+
+<!-- 6. COMO FUNCIONA -->
+<section style="padding:80px 0;background:#0A0951;color:#FFFFFF">
+<div style="max-width:1200px;margin:0 auto;padding:0 24px;display:flex;flex-direction:column;gap:48px">
+<div style="max-width:640px;display:flex;flex-direction:column;gap:14px">
+<span style="font-size:13px;font-weight:700;letter-spacing:2px;text-transform:uppercase;font-family:'Montserrat',sans-serif;color:#E3C78A">Como funciona</span>
+<h2 style="margin:0;font-family:'Cormorant Garamond',Georgia,serif;font-weight:600;font-size:clamp(36px,4.2vw,52px);line-height:1.15;color:#FFFFFF">Três passos para você só se preocupar em embarcar.</h2>
+</div>
+<div style="display:flex;flex-wrap:wrap;gap:32px">
+<div style="flex:1 1 280px;min-width:0;display:flex;flex-direction:column;gap:14px;padding-top:20px;border-top:2px solid #E3C78A">
+<span style="font-family:'Cormorant Garamond',Georgia,serif;font-size:40px;font-weight:600;color:#E3C78A">01</span>
+<h3 style="margin:0;font-size:21px;color:#FFFFFF">Entendemos o seu perfil</h3>
+<p style="margin:0;color:#E6E6F5">Uma conversa rápida no WhatsApp para saber seus sonhos, datas, quem vai com você e o que não pode faltar.</p>
+</div>
+<div style="flex:1 1 280px;min-width:0;display:flex;flex-direction:column;gap:14px;padding-top:20px;border-top:2px solid #E3C78A">
+<span style="font-family:'Cormorant Garamond',Georgia,serif;font-size:40px;font-weight:600;color:#E3C78A">02</span>
+<h3 style="margin:0;font-size:21px;color:#FFFFFF">Criamos o roteiro personalizado</h3>
+<p style="margin:0;color:#E6E6F5">Você recebe uma proposta detalhada, com opções de hospedagem, voos e passeios, e ajustamos até ficar do seu jeito.</p>
+</div>
+<div style="flex:1 1 280px;min-width:0;display:flex;flex-direction:column;gap:14px;padding-top:20px;border-top:2px solid #E3C78A">
+<span style="font-family:'Cormorant Garamond',Georgia,serif;font-size:40px;font-weight:600;color:#E3C78A">03</span>
+<h3 style="margin:0;font-size:21px;color:#FFFFFF">Emissão e suporte completo</h3>
+<p style="margin:0;color:#E6E6F5">Cuidamos de reservas e documentação, e seguimos com você antes e durante a viagem, a uma mensagem de distância.</p>
+</div>
+</div>
+</div>
+</section>
+
+<!-- 7. CTA FINAL -->
+<section style="padding:88px 0;background:linear-gradient(135deg,#A8884A 0%,#E6CE92 50%,#B8954C 100%)">
+<div style="max-width:860px;margin:0 auto;padding:0 24px;display:flex;flex-direction:column;align-items:center;text-align:center;gap:24px">
+<h2 style="margin:0;font-family:'Cormorant Garamond',Georgia,serif;font-weight:600;font-size:clamp(38px,5vw,60px);line-height:1.12;color:#0A0951">Pronto para viver a sua próxima grande viagem?</h2>
+<p style="margin:0;font-size:19px;color:#0A0951;max-width:620px">Conte para um consultor Realizze o que você sonha e receba um orçamento gratuito, sob medida, sem compromisso.</p>
+<a href="https://wa.me/5581995357254?text=Ol%C3%A1!%20Quero%20um%20or%C3%A7amento%20gratuito%20para%20minha%20viagem" style="background:#FFFFFF;color:#0A0951;box-shadow:0 6px 20px rgba(10,9,81,.25);padding:20px 40px;border-radius:999px;font-family:'Montserrat',sans-serif;font-weight:700;font-size:18px">Pedir orçamento gratuito no WhatsApp</a>
+</div>
+</section>
+
+<!-- 8. FOOTER -->
+<footer id="contato" style="background:#000D2D;color:#E6E6F5">
+<div style="max-width:1200px;margin:0 auto;padding:56px 24px 32px;display:flex;flex-direction:column;gap:40px">
+<div style="display:flex;flex-wrap:wrap;gap:40px">
+<div style="flex:1 1 280px;min-width:0;display:flex;flex-direction:column;gap:14px">
+<img src="./assets/288a58b16cb01e3f5bcfd37322bd0521.png" alt="Realizze Travel" width="520" height="522" style="width:140px;height:auto;display:block">
+<p style="margin:0;font-family:'Allura',cursive;font-size:34px;line-height:1.1;color:#E3C78A">Você sonha, a gente realiza!</p>
+</div>
+<div style="flex:1 1 220px;min-width:0;display:flex;flex-direction:column;gap:10px;font-size:15px">
+<span style="font-weight:700;color:#FFFFFF">Contato</span>
+<span>WhatsApp: (81) 99535-7254</span>
+<span>E-mail: realizzetravel@gmail.com</span></div>
+<div style="flex:1 1 220px;min-width:0;display:flex;flex-direction:column;gap:10px;font-size:15px">
+<span style="font-weight:700;color:#FFFFFF">Redes</span>
+<a href="https://www.instagram.com/realizzetravel/" style="color:#E3C78A;font-weight:600">Instagram @realizzetravel</a>
+<a href="https://www.google.com/maps/place/Realizze+Travel/@-9.6711986,-99.7672807,3z/data=!3m1!4b1!4m6!3m5!1s0x29eaed1abae23dcf:0x6af3bf20c5f391b4!8m2!3d-14.4095262!4d-51.3168626!16s%2Fg%2F11yx775pzt" style="color:#E3C78A;font-weight:600">Avaliações no Google Maps</a>
+</div>
+<div style="flex:1 1 220px;min-width:0;display:flex;flex-direction:column;gap:10px;font-size:15px">
+<span style="font-weight:700;color:#FFFFFF">Segurança</span>
+<span style="display:flex;align-items:center;gap:10px">
+<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#E3C78A" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l8 3v6c0 4.5-3.2 8-8 9-4.8-1-8-4.5-8-9V6z"></path><path d="M8.5 12l2.5 2.5 4.5-5"></path></svg>
+Agência credenciada
+</span>
+<span>CADASTUR: 63.652.360/0001-98</span>
+</div>
+</div>
+<div style="padding-top:24px;border-top:1px solid rgba(255,255,255,.15);font-size:13px;display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px">
+<span>© 2026 Realizze Travel. Todos os direitos reservados.</span>
+<span>Política de privacidade</span>
+</div>
+</div>
+</footer>
+
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1360,"height":3700}}'>
+class Component extends DCLogic {
+renderVals() {
+const scrollOffers = (dir) => () => {
+  const el = document.getElementById('ofertas-track');
+  if (el) el.scrollBy({ left: dir * (el.clientWidth + 32), behavior: 'smooth' });
+};
+return {
+  gold: 'linear-gradient(135deg,#A8884A 0%,#E6CE92 50%,#B8954C 100%)',
+  prevOffer: scrollOffers(-1),
+  nextOffer: scrollOffers(1)
+};
+}
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,8 @@
+{
+  "name": "Landing Page Realizze Travel",
+  "description": "Landing page da agência de viagens Realizze Travel — Viagens sob medida e atendimento humanizado.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
