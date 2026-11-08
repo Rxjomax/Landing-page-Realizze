@@ -7,6 +7,8 @@ import { useRef } from 'react';
 
 const goldGradient = 'linear-gradient(135deg,#A8884A 0%,#E6CE92 50%,#B8954C 100%)';
 const QUOTE_FORM_URL = 'https://agencia.iddas.com.br/so/wqt2jo3i';
+const WHATSAPP_URL =
+  'https://wa.me/5581995357254?text=Ol%C3%A1%2C%20gostaria%20de%20saber%20sobre%20o%20planejamento%20de%20viagem';
 
 export default function App() {
   const ofertasTrackRef = useRef<HTMLDivElement>(null);
@@ -92,7 +94,7 @@ export default function App() {
                 Contato
               </a>
               <a
-                href={QUOTE_FORM_URL}
+                href={WHATSAPP_URL}
                 target="_blank"
                 rel="noopener noreferrer"
                 style={{
@@ -1141,7 +1143,7 @@ export default function App() {
           </div>
           <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: '24px' }}>
             <a
-              href={QUOTE_FORM_URL}
+              href={WHATSAPP_URL}
               target="_blank"
               rel="noopener noreferrer"
               style={{
@@ -1204,7 +1206,7 @@ export default function App() {
               </div>
             </a>
             <a
-              href={QUOTE_FORM_URL}
+              href={WHATSAPP_URL}
               target="_blank"
               rel="noopener noreferrer"
               style={{
@@ -1267,7 +1269,7 @@ export default function App() {
               </div>
             </a>
             <a
-              href={QUOTE_FORM_URL}
+              href={WHATSAPP_URL}
               target="_blank"
               rel="noopener noreferrer"
               style={{
@@ -1330,7 +1332,7 @@ export default function App() {
               </div>
             </a>
             <a
-              href={QUOTE_FORM_URL}
+              href={WHATSAPP_URL}
               target="_blank"
               rel="noopener noreferrer"
               style={{
@@ -1393,7 +1395,7 @@ export default function App() {
               </div>
             </a>
             <a
-              href={QUOTE_FORM_URL}
+              href={WHATSAPP_URL}
               target="_blank"
               rel="noopener noreferrer"
               style={{
@@ -1458,7 +1460,7 @@ export default function App() {
               </div>
             </a>
             <a
-              href={QUOTE_FORM_URL}
+              href={WHATSAPP_URL}
               target="_blank"
               rel="noopener noreferrer"
               style={{
@@ -1521,7 +1523,7 @@ export default function App() {
               </div>
             </a>
             <a
-              href={QUOTE_FORM_URL}
+              href={WHATSAPP_URL}
               target="_blank"
               rel="noopener noreferrer"
               style={{
@@ -1977,7 +1979,7 @@ export default function App() {
             medida, sem compromisso.
           </p>
           <a
-            href={QUOTE_FORM_URL}
+            href={WHATSAPP_URL}
             target="_blank"
             rel="noopener noreferrer"
             style={{
