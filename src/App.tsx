@@ -59,7 +59,7 @@ export default function App() {
                 alt="Realizze Travel"
                 width={900}
                 height={230}
-                style={{ height: '44px', width: 'auto', display: 'block' }}
+                style={{ height: '72px', width: 'auto', display: 'block' }}
               />
             </a>
             <nav
@@ -236,10 +236,10 @@ export default function App() {
               </div>
             </div>
             <img
-              src="/assets/aistudio/hero_cutout_passports.webp"
-              alt="Os consultores da Realizze Travel, de uniforme azul, sorrindo e segurando passaportes"
-              width={628}
-              height={839}
+              src="/assets/aistudio/hero_cutout_hug.webp"
+              alt="Os consultores da Realizze Travel, de uniforme azul, sorrindo abraçados"
+              width={765}
+              height={1065}
               style={{
                 flex: '1 1 360px',
                 minWidth: 0,
@@ -1700,7 +1700,7 @@ export default function App() {
               display: 'flex',
               flexWrap: 'wrap',
               justifyContent: 'center',
-              alignItems: 'flex-start',
+              alignItems: 'stretch',
               gap: '24px',
             }}
           >
@@ -1709,12 +1709,16 @@ export default function App() {
                 flex: '1 1 320px',
                 minWidth: 0,
                 maxWidth: 'calc((100% - 48px) / 3)',
+                height: '220px',
                 margin: 0,
                 background: '#FFFFFF',
                 borderRadius: '18px',
                 padding: '14px 12px',
                 boxSizing: 'border-box',
                 boxShadow: '0 4px 18px rgba(10,9,81,.10)',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
               }}
             >
               <img
@@ -1722,7 +1726,7 @@ export default function App() {
                 alt="Avaliação de 5 estrelas de Janeide Monteiro no Google: Apesar de nova no mercado, essa agência mostrou que tem potencial. Busca sempre o melhor para o grupo. Quem nunca viajou, recomendo @realizze Travel. Viagem pra Ouro Preto, Minas Gerais."
                 width={386}
                 height={181}
-                style={{ display: 'block', width: '100%', height: 'auto' }}
+                style={{ display: 'block', width: '100%', maxHeight: '100%', objectFit: 'contain' }}
               />
             </figure>
             <figure
@@ -1730,12 +1734,16 @@ export default function App() {
                 flex: '1 1 320px',
                 minWidth: 0,
                 maxWidth: 'calc((100% - 48px) / 3)',
+                height: '220px',
                 margin: 0,
                 background: '#FFFFFF',
                 borderRadius: '18px',
                 padding: '14px 12px',
                 boxSizing: 'border-box',
                 boxShadow: '0 4px 18px rgba(10,9,81,.10)',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
               }}
             >
               <img
@@ -1743,7 +1751,7 @@ export default function App() {
                 alt="Avaliação de 5 estrelas de Ivone Alcoforado no Google: Foi uma viagem maravilhosa a Ouro Preto, MG. Um lugar que respira História. Um retorno ao passado, que nos leva à sensação de que o tempo não passou. Com uma excelente assistência através da agência @Realizzetravel."
                 width={399}
                 height={208}
-                style={{ display: 'block', width: '100%', height: 'auto' }}
+                style={{ display: 'block', width: '100%', maxHeight: '100%', objectFit: 'contain' }}
               />
             </figure>
             <figure
@@ -1751,12 +1759,16 @@ export default function App() {
                 flex: '1 1 320px',
                 minWidth: 0,
                 maxWidth: 'calc((100% - 48px) / 3)',
+                height: '220px',
                 margin: 0,
                 background: '#FFFFFF',
                 borderRadius: '18px',
                 padding: '14px 12px',
                 boxSizing: 'border-box',
                 boxShadow: '0 4px 18px rgba(10,9,81,.10)',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
               }}
             >
               <img
@@ -1764,7 +1776,7 @@ export default function App() {
                 alt="Avaliação de 5 estrelas de Gisele Soares no Google: Agência top, as pessoas super prestativas. Agência de confiança, podem comprar sem medo e eles lhe dão todo suporte durante sua viagem."
                 width={392}
                 height={150}
-                style={{ display: 'block', width: '100%', height: 'auto' }}
+                style={{ display: 'block', width: '100%', maxHeight: '100%', objectFit: 'contain' }}
               />
             </figure>
             <figure
@@ -1772,18 +1784,24 @@ export default function App() {
                 flex: '1 1 320px',
                 minWidth: 0,
                 maxWidth: 'calc((100% - 48px) / 3)',
+                height: '220px',
                 margin: 0,
                 background: '#FFFFFF',
                 borderRadius: '18px',
                 padding: '14px 12px',
                 boxSizing: 'border-box',
                 boxShadow: '0 4px 18px rgba(10,9,81,.10)',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
               }}
             >
               <img
-                src="/assets/aistudio/image_7dd0d21d.png"
-                alt="Avaliação de 5 estrelas de Beatriz Souza no Google: Só tenho a agradecer à Realizze por ter organizado tudo exatamente do jeitinho que era possível para mim. A empresa é excepcional! Amei toda a experiência, desde a contratação até o final da viagem. Tive toda a atenção e o suporte necessários no pré-viagem, durante e até mesmo no pós-viagem. Isso fez toda a diferença! Muito obrigada por todo o cuidado, carinho e dedicação. Foi uma experiência incrível!"
-                style={{ display: 'block', width: '100%', height: 'auto' }}
+                src="/assets/aistudio/beatriz_souza_uniform.png"
+                alt="Avaliação de 5 estrelas de Beatriz Souza no Google: A empresa é excepcional! Amei toda a experiência, desde a contratação até o final da viagem. Tive toda a atenção e o suporte necessários no pré-viagem, durante e até mesmo no pós-viagem. Isso fez toda a diferença!"
+                width={377}
+                height={198}
+                style={{ display: 'block', width: '100%', maxHeight: '100%', objectFit: 'contain' }}
               />
             </figure>
             <figure
@@ -1791,12 +1809,16 @@ export default function App() {
                 flex: '1 1 320px',
                 minWidth: 0,
                 maxWidth: 'calc((100% - 48px) / 3)',
+                height: '220px',
                 margin: 0,
                 background: '#FFFFFF',
                 borderRadius: '18px',
                 padding: '14px 12px',
                 boxSizing: 'border-box',
                 boxShadow: '0 4px 18px rgba(10,9,81,.10)',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
               }}
             >
               <img
@@ -1804,7 +1826,7 @@ export default function App() {
                 alt="Avaliação de 5 estrelas de Família França no Google: São bastante atenciosos, e com as melhores orientações e opções para viagens. Ficamos impressionados com tanto cuidado conosco. Agradecemos de coração!"
                 width={397}
                 height={188}
-                style={{ display: 'block', width: '100%', height: 'auto' }}
+                style={{ display: 'block', width: '100%', maxHeight: '100%', objectFit: 'contain' }}
               />
             </figure>
           </div>
